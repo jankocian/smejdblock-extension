@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "smejdblock-extension",
   "version": "0.0.1",
-  "description": "chrome extension boilerplate",
+  "description": "ŠmejdBlock - rozšíření do prohlížeče pro blokování podvodných stránek",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite.git"
+    "url": "https://github.com/jankocian/smejdblock-extension.git"
   },
   "scripts": {
     "clean": "rimraf dist && turbo clean",
