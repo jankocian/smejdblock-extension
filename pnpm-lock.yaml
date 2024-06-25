@@ -181,6 +181,28 @@ importers:
 
   packages/tsconfig: {}
 
+  pages/blocked-tab:
+    dependencies:
+      '@chrome-extension-boilerplate/shared':
+        specifier: workspace:*
+        version: link:../../packages/shared
+      '@chrome-extension-boilerplate/storage':
+        specifier: workspace:*
+        version: link:../../packages/storage
+    devDependencies:
+      '@chrome-extension-boilerplate/hmr':
+        specifier: workspace:*
+        version: link:../../packages/hmr
+      '@chrome-extension-boilerplate/tailwindcss-config':
+        specifier: workspace:*
+        version: link:../../packages/tailwind-config
+      '@chrome-extension-boilerplate/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      sass:
+        specifier: 1.77.5
+        version: 1.77.5
+
   pages/content:
     dependencies:
       '@chrome-extension-boilerplate/shared':
